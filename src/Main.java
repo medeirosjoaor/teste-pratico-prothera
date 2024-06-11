@@ -73,11 +73,11 @@ public class Main {
             int c = f1.getDataNascimentoFormatada().substring(6, 10).compareTo(f2.getDataNascimentoFormatada().substring(6, 10));
 
             if (c == 0) {
-                c = f1.getDataNascimentoFormatada().substring(3, 5).compareTo(f2.getDataNascimentoFormatada().substring(6, 10));
+                c = f1.getDataNascimentoFormatada().substring(3, 5).compareTo(f2.getDataNascimentoFormatada().substring(3, 5));
             }
 
             if (c == 0) {
-                c = f1.getDataNascimentoFormatada().substring(0, 2).compareTo(f2.getDataNascimentoFormatada().substring(6, 10));
+                c = f1.getDataNascimentoFormatada().substring(0, 2).compareTo(f2.getDataNascimentoFormatada().substring(0, 2));
             }
 
             return c;
